@@ -1,0 +1,63 @@
+@import "font-face";
+
+p {
+  font-size: 16px;
+}
+
+.card {
+  height: 519px;
+  width: 382px;
+  border-radius: 20px;
+  background-color: hsl(0, 0%, 100%);
+  padding: 21px;
+  border: 1px solid;
+  z-index: 1;
+}
+
+.card img {
+  border-radius: 13px;
+}
+
+.text p:nth-child(1) {
+  border-radius: 5px;
+  background-color: hsl(47, 88%, 63%);
+  padding: 7px 10px;
+  width: fit-content;
+
+  font-family: "figtree-extra-bold";
+}
+
+.text p:nth-of-type(2) {
+  font-family: "figtree";
+  font-weight: 500;
+}
+
+.text a {
+  text-decoration: none;
+  color: hsl(0, 0%, 7%);
+  font-family: "figtree-extra-bold";
+}
+
+.text a:hover {
+  color: hsl(47, 88%, 63%);
+}
+
+.text p:nth-of-type(3) {
+  font-family: "figtree";
+  color: hsl(0, 0%, 50%);
+  line-height: 1.5;
+}
+
+.avatar {
+  display: flex;
+  align-items: center;
+}
+
+.avatar img {
+  width: 32px;
+}
+
+.avatar p {
+  font-family: "figtree-extra-bold";
+  margin-left: 15px;
+}

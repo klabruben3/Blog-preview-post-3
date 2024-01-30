@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 960px;
+  width: 1440px;
+  background-color: hsl(47, 88%, 63%);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 375px) or (orientation: portrait) {
+  .container {
+    height: 812px;
+    width: 375px;
+  }
+
+  .card {
+    scale: 0.85;
+  }
+
+  .shadow {
+    scale: 0.85;
+  }
+}
