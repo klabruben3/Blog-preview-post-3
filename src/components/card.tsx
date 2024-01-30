@@ -3,7 +3,10 @@ import "./css/card.css";
 function Card() {
   return (
     <div className="card">
-      <img src="/images/illustration-article.svg" alt="illustration article" />
+      <img
+        src="./public/images/illustration-article.svg"
+        alt="illustration article"
+      />
       <br />
       <br />
       <div className="text">
@@ -21,7 +24,7 @@ function Card() {
         </p>
         <br />
         <div className="avatar">
-          <img src="/images/image-avatar.webp" alt="" />
+          <img src="./public/images/image-avatar.webp" alt="" />
           <p>Grey Hooper</p>
         </div>
       </div>
