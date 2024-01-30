@@ -4,7 +4,7 @@ function Card() {
   return (
     <div className="card">
       <img
-        src="src/images/illustration-article.svg"
+        src="./src/images/illustration-article.svg"
         alt="illustration article"
       />
       <br />
